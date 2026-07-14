@@ -1,0 +1,65 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history/
+.svn/
+
+# IntelliJ / Android Studio
+*.iml
+.idea/
+# Keep code style settings if desired
+!.idea/codeStyles/
+!.idea/runConfigurations/
+
+# VS Code
+.vscode/
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+
+# Generated files
+build/
+coverage/
+
+# Generated Dart files
+**/generated_plugin_registrant.dart
+
+# Android
+android/.gradle/
+android/captures/
+android/local.properties
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+ios/Flutter/Generated.xcconfig
+
+# macOS
+macos/Pods/
+macos/Flutter/ephemeral/
+
+# Linux
+linux/flutter/ephemeral/
+
+# Windows
+windows/flutter/ephemeral/
+
+# Fuchsia
+.fuchsia/
+
+# Firebase
+firebase-debug.log
+firebase-debug.*.log
+
+# Environment files
+.env
+.env.*
